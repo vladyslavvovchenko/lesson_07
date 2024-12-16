@@ -1,0 +1,396 @@
+/* 1 секція */
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+
+@import url("reset.css");
+
+
+/* business */
+.container{
+    max-width: 1470px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-text{
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+.main-title{
+    padding: 50px;
+    font-weight: 700;
+    font-size: 56px;
+    color: green;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,189,17,1) 50%, rgba(0,212,255,1) 100%);
+}
+
+.business{
+    color: rgba(57, 20, 0, 0.64);
+    font-family: "Epilogue", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2; /* 32/16 */
+    background-color: #FDF0E9;
+    padding: 70px 0;
+}
+.agency{
+    margin-bottom: 51px;
+}
+
+.agency-img{
+    max-width: 970px;
+    margin: 0 auto 74px;
+}
+
+.agency p:first-child{
+    color: #391400;
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.product{
+    margin-bottom: 65px;
+}
+
+.product-title, .service-title{
+    color:  #391400;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.33; /* 32/24 */
+    margin-bottom: 35px;
+}
+
+.product p:first-of-type{
+    margin-bottom: 34px;
+}
+
+.product-list, .service-list{
+    margin-bottom: 32px;
+    color:#391400;
+}
+
+.product-item::before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #EF6D58;
+    border-radius: 50%;
+    margin-right: 16px;
+    
+}
+
+.service p:nth-child(2){
+    margin-bottom: 28px;
+}
+
+.service p:nth-child(4){
+    margin-bottom: 69px;
+}
+
+.provide{
+    border-radius: 6px;
+    background-color: #F9E5DA;
+    color: #391400;
+    font-size: 20px;
+    line-height: 1.6; /* 32/20 */
+    margin-bottom: 76px;
+    padding: 42px 32px 32px;
+
+}
+
+.provide p{
+    background-image: url(../img/shape.png);
+    background-repeat: no-repeat;
+    background-size: 48px;
+    padding-left: 80px;
+    /* background: url(../img/shape.png) 0 0 / 48px no-repeat; */
+}
+
+/* product */
+.action-plan {
+    background-color: #FFF;
+    font-family: "DM Sans", sans-serif;
+    color: #6E6C83;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.75; /* 42/24 */
+    padding: 127px 0;
+}
+
+.action-plan-container{
+    max-width: 630px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.action-plan-container div:not(:last-child){
+    margin-bottom: 96px;
+}
+
+.discovery h3, .development h3, .launch h3{
+    color: #4A3AFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.1; /* 22/20 */}
+
+.discovery h2, .development h2, .launch h2{
+    color: #1E1B39;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.29; /* 54/42 */
+}
+
+.discovery h2::after{
+    content: "";
+    width: 42px;
+    height: 42px;
+    background: url(../img/title-1.png) 0 0 / 42px no-repeat;
+}
+
+.development h2::after{
+    content: "";
+    width: 42px;
+    height: 42px;
+    background: url(../img/title-2.png) 0 0 / 42px no-repeat;
+}
+
+.launch h2::after{
+    content: "";
+    width: 42px;
+    height: 42px;
+    background: url(../img/title-3.png) 0 0 / 42px no-repeat;
+}
+
+.discovery h2:hover, .development h2:hover, .launch h2:hover,
+.discovery h2:focus, .development h2:focus, .launch h2:focus{
+    color:aqua;
+}
+
+/* prising */
+
+.prising-plan{
+    padding: 106px 0;
+    color: #1E1B39;
+    font-family: "DM Sans";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.36; /* 38/28 */
+}
+
+.prising-plan-container{
+    max-width: 573px;
+    padding: 24px;
+    margin: 0 auto;
+    border-radius: 56px;
+    background: #F0F0F6;
+}
+
+.basic{
+    border-radius: 34px;
+    background: #4A3AFF;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    padding: 45px 139px;
+}
+
+.basic:has(h3) h3 {
+    font-size: 30px;
+    line-height: 1.07; /* 32/30 */
+    opacity: 0.9;
+}
+
+.basic p:first-of-type  {  
+    font-size: 116px;
+    line-height: 1.03; /* 120/116 */
+}
+
+.basic p:last-child{
+    opacity: 0.6;
+    font-size: 20px;
+    line-height: 1.1; /* 22/20 */
+}
+
+.basic-list{
+    padding: 34px 13px;
+}
+
+.basic-list-item::before{
+    content:"";
+    width: 36px;
+    height: 36px;
+    background: url(../img/check.png) 0 0 / 36px no-repeat;
+    margin-right: 14px;
+    vertical-align: top;
+}
+
+.basic-list-item:not(:last-child){
+    margin-bottom: 26px;
+}
+
+
+/* game */
+
+.game-container{
+    max-width: 1100px;
+    padding: 100px 15px;
+    margin: 0 auto;
+}
+
+.game-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.game-list{
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(245,0,87,1) 0%, rgba(34,255,17,1) 51%, rgba(255,252,0,1) 100%);
+    padding: 50px 0;
+}
+
+.game-item-1, .game-item-11{
+   width: 100px;
+   height: 30px;
+   background-color: rgb(5, 247, 214);
+   border-radius: 30px;
+   text-align: center;
+   vertical-align: middle;
+   
+}
+
+.game-item-1{
+     margin-left: 75px;
+}
+
+.game-text {
+    color: rgb(255, 115, 0);
+    font-weight: 600;
+    font-size: 30px;  
+    text-align: center;     
+}
+
+.game-item-2{
+    margin-left: 100px;
+    width: 50px;
+    height: 70px;
+    background-color: red;
+    visibility: hidden;
+}
+
+.game-item-3{
+    margin-left: 100px;
+    width: 600px;
+    height: 30px;
+    background-color: red;
+    visibility: hidden;
+}
+
+.game-item-4{
+    margin-left: 680px;
+    width: 20px;
+    height: 70px;
+    background-color: red;
+    visibility: hidden;
+}
+
+.game-item-5{
+    width: 300px;
+    height: 40px;
+    background-color: red;
+    margin-left: 680px;
+    visibility: hidden;
+}
+
+.game-item-6{
+    width: 20px;
+    height: 70px;
+    background-color: red;
+    margin-left: 960px;
+    visibility: hidden;
+}
+
+.game-item-7{
+    width: 700px;
+    height: 15px;
+    background-color: red;
+    margin-left: 280px;
+    visibility: hidden;
+}
+
+.game-item-8{
+    width: 40px;
+    height: 80px;
+    background-color: red;
+    margin-left: 280px;
+    visibility: hidden;
+}
+
+.game-item-9{
+    width: 400px;
+    height: 30px;
+    background-color: red;
+    margin-left: 280px;
+    visibility: hidden;
+}
+
+.game-item-10{
+    width: 20px;
+    height: 150px;
+    background-color: red;
+    margin-left: 660px;
+    visibility: hidden;
+}
+
+.game-item-11{
+    margin-left: 620px;
+}
+
+.game-item-1:hover + .game-item-2,
+.game-item-2:hover{
+    visibility: visible;
+}
+
+.game-item-2:hover + .game-item-3,
+.game-item-3:hover{
+    visibility: visible;
+}
+
+.game-item-3:hover + .game-item-4,
+.game-item-4:hover{
+    visibility: visible;
+}
+
+.game-item-4:hover + .game-item-5,
+.game-item-5:hover{
+    visibility: visible;
+}
+
+.game-item-5:hover + .game-item-6,
+.game-item-6:hover{
+    visibility: visible;
+}
+
+.game-item-6:hover + .game-item-7,
+.game-item-7:hover{
+    visibility: visible;
+}
+
+.game-item-7:hover + .game-item-8,
+.game-item-8:hover{
+    visibility: visible;
+}
+
+.game-item-8:hover + .game-item-9,
+.game-item-9:hover{
+    visibility: visible;
+}
+
+.game-item-9:hover + .game-item-10,
+.game-item-10:hover{
+    visibility: visible;
+}
