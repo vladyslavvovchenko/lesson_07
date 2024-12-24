@@ -7,7 +7,7 @@
 
 /* business */
 .container{
-    max-width: 1470px;
+    max-width: 1000px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -42,6 +42,12 @@
 .agency-img{
     max-width: 970px;
     margin: 0 auto 74px;
+}
+
+.agency-img img{
+    max-width: 970px;
+    /* max-width: 100%; */
+    border-radius: 5px;
 }
 
 .agency p:first-child{
@@ -193,7 +199,7 @@
     color: #FFF;
     text-align: center;
     font-weight: 700;
-    padding: 45px 139px;
+    padding: 45px 15px;
 }
 
 .basic:has(h3) h3 {
@@ -214,7 +220,8 @@
 }
 
 .basic-list{
-    padding: 34px 13px;
+    padding: 34px 0;
+    padding-left: 13px;
 }
 
 .basic-list-item::before{
